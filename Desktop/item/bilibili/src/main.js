@@ -5,6 +5,12 @@ import store from './store'
 // import 'element-ui/lib/theme-chalk/index.css'
 // import ElementUI from 'element-ui'
 
+import VueAwesomeSwiper from 'vue-awesome-swiper'
+
+// import style
+// import 'swiper/css/swiper.css'
+// If you use Swiper 6.0.0 or higher
+// import 'swiper/swiper-bundle.css'
 // CSS
 import './assets/css/reset.css'
 import './assets/css/iconfont.css'
@@ -16,6 +22,7 @@ FastClick.attach(document.body)
 Vue.config.productionTip = false
 
 // Vue.use(ElementUI)
+Vue.use(VueAwesomeSwiper)
 
 new Vue({
   router,
