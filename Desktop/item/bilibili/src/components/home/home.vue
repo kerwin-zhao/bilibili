@@ -5,6 +5,7 @@
         <home-header></home-header>
         <!-- <Myswiper></Myswiper> -->
         <home-icons></home-icons>
+        <home-location></home-location>
 
     </div>
 </template>
@@ -13,12 +14,14 @@
 import HomeHeader from './pages/header'
 // import Myswiper from './pages/swiper'
 import HomeIcons from './pages/icons'
+import HomeLocation from './pages/location'
 
 export default {
   components: {
     HomeHeader,
     // Myswiper,
-    HomeIcons
+    HomeIcons,
+    HomeLocation
   }
 }
 </script>
