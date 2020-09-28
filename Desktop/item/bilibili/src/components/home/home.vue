@@ -6,7 +6,8 @@
         <!-- <Myswiper></Myswiper> -->
         <home-icons></home-icons>
         <home-location></home-location>
-
+        <home-activity></home-activity>
+        <home-hot></home-hot>
     </div>
 </template>
 
@@ -15,13 +16,17 @@ import HomeHeader from './pages/header'
 // import Myswiper from './pages/swiper'
 import HomeIcons from './pages/icons'
 import HomeLocation from './pages/location'
+import HomeActivity from './pages/activity'
+import HomeHot from './pages/hot'
 
 export default {
   components: {
     HomeHeader,
     // Myswiper,
     HomeIcons,
-    HomeLocation
+    HomeLocation,
+    HomeActivity,
+    HomeHot
   }
 }
 </script>
