@@ -8,6 +8,7 @@
         <home-location></home-location>
         <home-activity></home-activity>
         <home-hot></home-hot>
+        <home-like></home-like>
     </div>
 </template>
 
@@ -18,6 +19,7 @@ import HomeIcons from './pages/icons'
 import HomeLocation from './pages/location'
 import HomeActivity from './pages/activity'
 import HomeHot from './pages/hot'
+import HomeLike from './pages/like'
 
 export default {
   components: {
@@ -26,7 +28,8 @@ export default {
     HomeIcons,
     HomeLocation,
     HomeActivity,
-    HomeHot
+    HomeHot,
+    HomeLike
   }
 }
 </script>

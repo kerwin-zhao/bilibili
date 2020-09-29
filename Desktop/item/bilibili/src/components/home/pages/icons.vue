@@ -60,19 +60,19 @@ export default {
           title: '汽车票船票'
         },
         {
-          id: '05',
+          id: '08',
           imgurl:
             'https://picbed.qunarzz.com/f5e5770393d759578962e53ee67798c8.png',
           title: '海外酒店'
         },
         {
-          id: '06',
+          id: '09',
           imgurl:
             'https://picbed.qunarzz.com/1316dc82d1ce6259686d5a68880e5a9d.png',
           title: '攻略'
         },
         {
-          id: '07',
+          id: '10',
           imgurl:
             'https://picbed.qunarzz.com/377db8cb2143aebf01869c9baad3d325.png',
           title: '汽车票船票'

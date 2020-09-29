@@ -9,6 +9,9 @@
               </li>
           </ul>
       </div>
+      <div class="btn">
+        <p class="iconfont p">更多特惠度假 &#xe600;</p>
+      </div>
     </div>
 </template>
 
@@ -54,14 +57,16 @@ export default {
 }
 </script>
 
-<style scoped>
+<style scoped lang='stylus'>
+@import '~@/assets/css/text.styl';
 .hot p {
     font-size: .3rem;
-    white-space: nowrap;
+    /* 文字溢出问题 此处三行代码顺序不能改变 */
+    /* white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden; */
+    textOverflow();
     text-align: left;
-}
-.hot {
-    display: flex;
 }
 .hot-item {
     flex: 1;
@@ -79,5 +84,17 @@ li {
     margin: 0px;
     display: inline-block;
     margin-left: 0px;
+}
+.btn {
+    width: 99%;
+    color: rgb(0, 208, 212);
+    text-align: center;
+    border: solid 1px rgb(0, 208, 212);
+    border-radius: .05rem;
+    padding .1rem auto;
+}
+.btn .p {
+    margin : .1rem auto;
+    text-align : center;
 }
 </style>
