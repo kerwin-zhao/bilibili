@@ -1,0 +1,62 @@
+{
+    "data": [
+        {
+            "city": "北京",
+            "iconsList": [
+                {
+                    "id": "01",
+                    "imgurl": "http://localhost:8080/static/mock/img/flight.png",
+                    "title": "机票"
+                },
+                {
+                  "id": "02",
+                  "imgurl": "https://s.qunarzz.com/homenode/images/touchheader/hotel.png",
+                  "title": "酒店"
+                },
+                {
+                  "id": "03",
+                  "imgurl": "https://s.qunarzz.com/homenode/images/touchheader/train.png",
+                  "title": "火车票"
+                },
+                {
+                  "id": "04",
+                  "imgurl": "https: //s.qunarzz.com/homenode/images/touchheader/piao.png",
+                  "title": "景点门票"
+                },
+                {
+                  "id": "05",
+                  "imgurl":
+                    "https: //picbed.qunarzz.com/f5e5770393d759578962e53ee67798c8.png",
+                  "title": "'海外酒店'"
+                },
+                {
+                  "id": "06",
+                  "imgurl":
+                    "https: //picbed.qunarzz.com/1316dc82d1ce6259686d5a68880e5a9d.png",
+                  "title": "'攻略'"
+                },
+                {
+                  "id": "07",
+                  "imgurl":
+                    "https: //picbed.qunarzz.com/377db8cb2143aebf01869c9baad3d325.png",
+                  "title": "'汽车票船票'"
+                },
+                {
+                  "id": "09",
+                  "imgurl":
+                    "https: //picbed.qunarzz.com/1316dc82d1ce6259686d5a68880e5a9d.png",
+                  "title": "'攻略'"
+                },
+                {
+                  "id": "10",
+                  "imgurl":
+                   " https: //picbed.qunarzz.com/377db8cb2143aebf01869c9baad3d325.png",
+                  "title": "'汽车票船票'"
+                }
+            ]
+        },
+        {
+            "city": "上海"
+        }
+    ]
+}
