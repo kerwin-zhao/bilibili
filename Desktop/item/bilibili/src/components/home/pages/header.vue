@@ -9,14 +9,22 @@
     </div>
     <div class="header-right">
       <router-link to="/city">
-        北京
+        {{city}}
         <span class="iconfont">&#xe600;</span>
       </router-link>
     </div>
   </div>
 </template>
 
-<script></script>
+<script>
+// 引入vuex实现组件之间的数据共享
+import { mapState } from 'vuex'
+export default {
+  computed: {
+    ...mapState(['city'])
+  }
+}
+</script>
 
 <style lang="stylus" scoped>
 // 引入stylus方式一

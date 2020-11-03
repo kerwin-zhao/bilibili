@@ -3,13 +3,13 @@
         <div class="sp">热门城市</div>
         <div>
             <ul class="hot-list">
-                <li class="hot-item">
+                <li  @click="changecity('shanghia')" class="hot-item">
                     上海
                 </li>
-                 <li class="hot-item">
+                 <li @click="changecity('cityName')" class="hot-item">
                     天津
                 </li>
-                 <li class="hot-item">
+                 <li   @click="changecity('cityName')" class="hot-item">
                     合肥
                 </li>
                  <li class="hot-item">
@@ -32,7 +32,23 @@
 </template>
 
 <script>
-
+export default {
+  data () {
+    return {
+      cityList: [
+        {
+          id: '1',
+          name: 'shanghai'
+        }
+      ]
+    }
+  },
+  methonds: {
+    changecity(cityName) {
+      alert(cityName)
+    }
+  }
+}
 </script>
 
 <style scoped>
